@@ -12,6 +12,85 @@ body {
 	background: #eeeceb;
 }
 
+/* add by davi */
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: left;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.top-wrapper {
+	padding: 180px 0 100px 0;
+	background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.top-wrapper h1 {
+	opacity: 0.7;
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+}
+
+.top-wrapper p {
+	opacity: 0.7;
+	margin-bottom: 3px;
+}
+
+header {
+	height: 65px;
+	width: 100%;
+	background-color: #140b5c;
+	position :fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.logo {
+	width: 180px;
+	margin-top: 20px;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right {
+	float: right;
+	margin-right: -25px;
+}
+
+.header-right a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	display: block;
+	float: left;
+	transition: all 0.5s;
+}
+
+.header-right a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+span.menu-icon {
+	display: none;
+}
+/*---------------*/
+main {
+	margin: 10em 0;
+}
 footer {
 	position: fixed;
 	background: #140b5c;
@@ -114,6 +193,11 @@ footer .bottom-details .bottom_text {
 	footer .content .link-boxes {
 		flex-wrap: wrap;
 	}
+
+	/* add by davi */
+	.heading h2 {
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 700px) {
@@ -130,6 +214,19 @@ footer .bottom-details .bottom_text {
 	.bottom-details .bottom_text a {
 		font-size: 12px;
 	}
+
+	/* add by davi */
+	.header-right {
+		display: none;
+	}
+
+	span.menu-icon {
+		color: white;
+		float: right;
+		font-size: 25px;
+		padding: 21px 0;
+		display: block;
+	}
 }
 
 @media (max-width: 520px) {
@@ -145,4 +242,18 @@ footer .bottom-details .bottom_text {
 	footer .content .link-boxes .box {
 		width: calc(100% / 2 - 10px);
 	}
+
+	/* add by davi */
+	.header-right {
+		display: none;
+	}
+
+	span.menu-icon {
+		color: white;
+		float: right;
+		font-size: 25px;
+		padding: 21px 0;
+		display: block;
+	}
+
 }
