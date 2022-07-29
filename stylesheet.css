@@ -202,6 +202,7 @@ span.menu-icon {
 }
 .lesson {
 	float: left;
+	flex: auto;
 	width: 25%;
 }
 .foto {
@@ -320,6 +321,7 @@ footer .bottom-details .bottom_text {
 @media (max-width: 900px) {
 	footer .content .link-boxes {
 		flex-wrap: wrap;
+
 	}
 
 	/* add by davi */
@@ -328,6 +330,11 @@ footer .bottom-details .bottom_text {
 	}
 	.lessons {
 		padding: 0 100px;
+
+	}
+	.lesson {
+		width : 50%;
+
 	}
 }
 
@@ -360,6 +367,11 @@ footer .bottom-details .bottom_text {
 	}
 	.lessons {
 		margin: 0 10px;
+	}
+
+	.lesson {
+		width : 100%;
+
 	}
 }
 
