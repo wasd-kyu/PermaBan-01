@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "sans-serif";
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.jambotron {
+  height: 580px;
+  width: 100%;
+  padding: 180px 0 100px 0;
+  background-image: url("jambotron1.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.jambotron h1 {
+  margin-top: 150px;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.jambotron p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+.btn-wrapper {
+  margin: 20px 0;
+}
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.signup {
+  background-color: #cfd2cf;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.fa {
+  margin-right: 7px;
+}
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.lesson {
+  float: left;
+  width: 25%;
+}
+.clear {
+  clear: left;
+}
+.foto {
+  width: 75%;
+}
+.foto {
+  border-radius: 50%;
+}
+
+.lessons {
+  display: flex;
+  justify-content: center;
+}
+/* responsive tab */
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
