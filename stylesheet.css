@@ -87,12 +87,140 @@ header {
 span.menu-icon {
 	display: none;
 }
-/*---------------*/
-main {
-	margin: 10em 0;
+
+/* add by nathan */
+.jambotron {
+	height: 580px;
+	width: 100%;
+	padding: 180px 0 100px 0;
+	background-image: url("jambotron1.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
 }
+.jambotron h1 {
+	margin-top: 150px;
+	opacity: 0.7;
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+}
+.jambotron p {
+	opacity: 0.7;
+	margin-bottom: 3px;
+	font-size: 25px;
+}
+.btn-wrapper {
+	margin: 20px 0;
+}
+.btn-wrapper p {
+	margin: 10px 0;
+}
+.signup {
+	background-color: #cfd2cf;
+}
+.btn {
+	padding: 12px 24px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+}
+.fa {
+	margin-right: 7px;
+}
+.lesson-wrapper {
+	padding-bottom: 80px;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+.lesson {
+	float: left;
+	width: 25%;
+}
+.foto {
+	width: 75%;
+	border-radius: 50%;
+}
+
+.lessons {
+	display: flex;
+	justify-content: center;
+}
+/*---------------*/
+
+/* add by nathan */
+.jambotron {
+	height: 580px;
+	width: 100%;
+	padding: 180px 0 100px 0;
+	background-image: url("jambotron1.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+.jambotron h1 {
+	margin-top: 50px;
+	opacity: 0.7;
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+}
+.jambotron p {
+	opacity: 0.7;
+	margin-bottom: 3px;
+	font-size: 25px;
+}
+.btn-wrapper {
+	margin: 20px 0;
+}
+.btn-wrapper p {
+	margin: 10px 0;
+}
+.signup {
+	background-color: #cfd2cf;
+}
+.btn {
+	margin: 10px 0;
+	padding: 12px 24px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+}
+.fa {
+	margin-right: 7px;
+}
+.lesson-wrapper {
+	padding-bottom: 80px;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+.lesson {
+	float: left;
+	width: 25%;
+}
+.foto {
+	width: 75%;
+	border-radius: 50%;
+}
+
+.lessons {
+	display: flex;
+	justify-content: center;
+}
+.heading {
+	padding: 50px 0;
+	text-align: center;
+}
+/* ----------------- */
+
 footer {
-	position: fixed;
+	position: relative;
 	background: #140b5c;
 	width: 100%;
 }
@@ -195,8 +323,11 @@ footer .bottom-details .bottom_text {
 	}
 
 	/* add by davi */
-	.heading h2 {
+	.heading h1 {
 		font-size: 20px;
+	}
+	.lessons {
+		padding: 0 100px;
 	}
 }
 
@@ -227,6 +358,9 @@ footer .bottom-details .bottom_text {
 		padding: 21px 0;
 		display: block;
 	}
+	.lessons {
+		margin: 0 10px;
+	}
 }
 
 @media (max-width: 520px) {
@@ -256,4 +390,19 @@ footer .bottom-details .bottom_text {
 		display: block;
 	}
 
+	.lesson {
+		margin: 0 30px;
+		text-align: center;
+	}
+
+	.lesson-wrapper {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 10px;
+	}
+	p {
+		font-size: 5px;
+	}
 }
