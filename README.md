@@ -1,2 +1,2 @@
 # PermaBan-01
-Tugas I DTA Golang3 
+Tugas I DTS PROA Golang3 
